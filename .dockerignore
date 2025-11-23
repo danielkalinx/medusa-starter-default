@@ -5,10 +5,13 @@ yarn-error.log*
 .git
 .gitignore
 README.md
-.env.test
 .nyc_output
 coverage
 .DS_Store
 *.log
 dist
 build
+
+# Environment files (exclude all except template)
+.env*
+!.env.template
